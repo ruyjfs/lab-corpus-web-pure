@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+.app-toolbar {
+  background-color: red;
+  font-size: 32px;
+  font-weight: 600;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-content {
+  background-color: blue;
+  height: calc(100vh - 128px);
+  display: flex;
+  justify-content: center;
+}
+
+.app-container {
+  background-color: purple;
+  max-width: 960px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.app-footer {
+  background-color: green;
+  font-size: 18px;
+  font-weight: 600;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-content form {
+  background-color:orange;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.app-content form label { 
+  font-weight: 800;
+}
